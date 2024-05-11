@@ -1,0 +1,54 @@
+body {
+    background: url(picture2.jpg);
+    background-size: cover;
+    height: 100%;
+    overflow: hidden;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #172035;
+    text-align: center;
+}
+
+#login-form-container {
+    border-style: solid;
+    border-width: 10px;
+    border-color: #172035;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.5); 
+    border-radius: 25px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.loginform-label {
+    font-size: 20px;
+    font-family: "Times New Roman", Times, serif;
+    margin-bottom: 5px;
+}
+
+.loginform-input {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.loginform-submit {
+    background-color: lightblue;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.login-error {
+    color: red;
+    font-size: 14px;
+    margin-bottom: 10px;
+    display: block;
+}

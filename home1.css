@@ -1,0 +1,177 @@
+*{
+
+  #first{
+            padding: 1%;
+            text-align: right;
+            border: hidden;
+            color:black;
+            font-weight: bolder;
+            background-color: red;
+            font-size: 20px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }   
+  #link{
+            text-decoration: none;
+            color: black;
+            margin-right: 15px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }  
+    
+
+
+.search {
+  width: 150%;
+  position: relative;
+  display: flex;
+}
+
+.searchTerm {
+  width: 100%;
+  border: 3px solid #eb4d4d;
+  border-right: none;
+  padding: 10px;
+  height: 26px;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  color: #9DBFAF;
+  margin-bottom: 380px;
+  margin-left: -190px;
+}
+
+.searchTerm:focus{
+  color: #844242;
+}
+
+.searchButton {
+  width: 80px;
+  height: 50px;
+  border: 1px solid #7d7070;
+  background: #80584e;
+  text-align: center;
+  color: #37a7d0;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 20px;
+ margin-left: 0px;
+}
+
+.wrap{
+  width: 30%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}     
+.head-list table{
+  margin-left: 100px;
+  width: 150%;
+  padding-top: 4%; 
+}
+.head-list a{
+  text-decoration: none;
+  color:black;
+  font-size: larger;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  
+}
+
+
+.topnav {
+  overflow: hidden;
+  background-color: #8c3a3a;
+}
+
+.topnav a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  margin-right: 40px;
+  margin-left: 65px;
+  width: 7%;
+  font-weight: bolder;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.topnav a:hover {
+  background-color:white;
+  color: rgb(6, 0, 0);
+
+}
+.mySlides {display: none;}
+.mySlides img {
+  vertical-align: middle;
+  height: 500px;
+  width: 500px;
+}
+
+
+.slideshow-container {
+  max-width: 1500px;
+  position: relative;
+  margin: auto;
+  margin-top: 100px;
+  
+}
+
+.slideshow-container .mySlides img{
+  object-fit: cover;
+  object-position:center;
+  height: 600px;
+}
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+
+.numbertext {
+  color: #878383;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+.l:hover{
+background-color: aliceblue;
+color: black;
+}
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+
+}
